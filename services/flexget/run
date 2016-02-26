@@ -1,0 +1,6 @@
+#!/bin/sh
+
+: ${FLEXGET_CONFIG:=data/config.yml}
+
+exec 2>&1
+exec flexget -c $FLEXGET_CONFIG execute

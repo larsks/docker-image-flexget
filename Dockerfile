@@ -16,4 +16,4 @@ RUN pip install -U pip
 RUN pip install flexget
 
 COPY flexget.cron /etc/periodic/hourly/flexget.cron
-COPY services/flexget /services/flexget
+COPY services /services

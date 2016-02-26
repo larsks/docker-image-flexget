@@ -15,5 +15,5 @@ RUN apk add \
 RUN pip install -U pip
 RUN pip install flexget
 
-COPY flexget.cron /etc/periodic/hourly/flexget.cron
+COPY flexget.cron /etc/periodic/hourly/flexget
 COPY services /services
